@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .navbar-brand {
+    padding-left: 100px;
+  }
+  
+  .navbar-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding-right: 1050px;  
+    display: flex ;
+    margin-top: 15px;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .greeting {
+    font-size: 18px;
+    padding-left: 300px;
+    margin-top: 10px;
+  }
+  
+  .datetime {
+    font-size: 20px;
+    text-align: right;
+    
+  }
+
+  .carousel{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: right;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  
+  
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  footer p {
+    font-size: 12px;
+    color: #999999;
+  }
+  
